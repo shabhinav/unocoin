@@ -1,0 +1,40 @@
+.userform {
+  color: white;
+
+  .MuiOutlinedInput-input {
+    padding: 6px !important;
+    background-color: white !important;
+    border-radius: 4px !important;
+    border: none !important;
+  }
+  .MuiOutlinedInput-root {
+    border: 1px solid lightgray !important;
+  }
+  //   .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  //     border: 2px solid lightgray !important;
+  //   }
+  .MuiOutlinedInput-notchedOutline {
+    border: none !important;
+  }
+
+  //   .MuiOutlinedInput-root.Mui-focused {
+  //     border: 2px solid lightgray !important;
+  //   }
+  .MuiFormControl-root {
+    width: 100%;
+  }
+}
+
+.modal-content {
+  width: 85% !important;
+}
+
+.modal.show .modal-dialog {
+  margin-top: 15% !important;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  appearance: none;
+  margin: 0;
+}
